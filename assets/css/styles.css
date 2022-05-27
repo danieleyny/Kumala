@@ -791,13 +791,15 @@ img{
 /* For small devices */
 @media screen and (max-width: 375px) {
     .home__img{
-        width: 330px;
+        width: 290px;
         height: 100%;
-        right: 17%;
+        right: 14%;
         bottom: 2.7rem;
 
     }
 }
+
+
   
 
 
