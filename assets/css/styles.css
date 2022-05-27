@@ -9,7 +9,7 @@
 
 /*===== Colores =====*/
 :root{
-    --first-color: hsl(235, 100%, 66%);
+    --first-color: hsl(0, 2%, 53%);
     --white-color: #FAFAFF;
     --dark-color: #2A3B47;
     --text-color: #697477;
@@ -187,10 +187,10 @@ img{
   }
   
    .logo-image{
-      width: 200px;
-      height: 200px;
+      width: 250px;
+      height: 250px;
       border-radius: 50%;
-      margin-top: 20px;
+      margin-top: 1px;
   }
   
   
@@ -794,14 +794,12 @@ img{
     .home__img{
         width: 500px;
         height: 100%;
-        right: 17%;
+        right: 20%;
         bottom: 1rem;
 
     }
 }
   
-
-
 
 
 
@@ -1021,6 +1019,7 @@ img{
     .home__img{
         max-width: 100%; 
         height: auto;
+
     }
   }
   
@@ -1039,7 +1038,7 @@ img{
     }
     .home__img {
         width: 500px;
-        right: 24%;
-        bottom: -84px;
+        right: 14%;
+        bottom: 84px;
     }
 }
