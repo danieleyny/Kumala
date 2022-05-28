@@ -245,8 +245,8 @@ img{
 }
 .home__img{
     position: absolute;
-    right: 5rem;
-    bottom: -2.5rem;
+    right: 10rem;
+    bottom: .5rem;
     width: 100%;
 }
 
@@ -683,6 +683,7 @@ img{
 
 
 
+
 /* ===== PORTFOLIO =====*/
 .portfolio{
     background-color: var(--white-color);
@@ -789,11 +790,11 @@ img{
 
 /* ===== MEDIA QUERIES =====*/
 /* For small devices */
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 335px) {
     .home__img{
-        width: 290px;
+        width: 220px;
         height: 100%;
-        right: 14%;
+        right: 0%;
         bottom: 2.7rem;
 
     }
@@ -1020,6 +1021,7 @@ img{
     .home__img{
         max-width: 100%; 
         height: auto;
+        right: 300px;
 
     }
   }
@@ -1038,8 +1040,13 @@ img{
         height: 640px;
     }
     .home__img {
-        width: 500px;
-        right: 14%;
-        bottom: 84px;
+        width: auto;
+        height: 400px;
+        right: 5%;
+        bottom: 20px;
+        
     }
 }
+
+
+
