@@ -923,6 +923,7 @@ img{
     .home__img{
         width: 524px;
         right: 10%;
+        height: 100%;
     }
     .home__title{
         align-self: flex-end;
@@ -1019,9 +1020,8 @@ img{
         background-color: var(--first-color);
     }
     .home__img{
-        max-width: 100%; 
+        width: 100%; 
         height: auto;
-        right: 300px;
 
     }
   }
