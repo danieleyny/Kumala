@@ -140,15 +140,15 @@ img{
         position: fixed;
         top: var(--header-height);
         right: -100%;
-        width: 50%;
+        width: 40%;
         height: 100%;
         padding: 2rem;
-        background-color: rgba(155, 157, 157, 0.913);
+        background-color: hsla(0, 2%, 53%, 0.954);
         transition: .5s;
         backdrop-filter: blur(10px);
-        font-size: 25px;
+        font-size: 20px;
         text-align: left;
-        box-shadow: -2px 0px 4px 1px var(--first-color);
+        box-shadow: -2px 0px 4px 1px rgb(96, 95, 95);
     }
 }
 .nav__item{
@@ -159,8 +159,8 @@ img{
 .nav__link{
     position: relative;
     color: var(--dark-color);
-    font-family: 'Times New Roman', Times, serif;
-    
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 17px;
 }
 .nav__link:hover{
     color: var(--first-color);
@@ -1145,12 +1145,12 @@ img{
     .nav__link{
         position: relative;
         color: rgb(250, 254, 255);
-        font-family: 'Times New Roman', Times, serif;
-        
+        font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     }
     .nav__link:hover{
-        color: rgb(58, 57, 57);
+        color: rgb(240, 240, 240);
         font-weight: 900;
+        
     }
     .active::after {
         position: absolute;
