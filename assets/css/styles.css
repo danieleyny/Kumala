@@ -143,7 +143,7 @@ img{
         width: 50%;
         height: 100%;
         padding: 2rem;
-        background-color: rgba(219, 236, 244, 0.852);
+        background-color: rgba(155, 157, 157, 0.913);
         transition: .5s;
         backdrop-filter: blur(10px);
         font-size: 25px;
@@ -233,6 +233,7 @@ img{
 }
 .home__title span{
     text-shadow: 0 20px 10px rgba(0,0,0,.5);
+    height: 100%;
 }
 .home__scroll{
     align-self: flex-end;
@@ -315,9 +316,16 @@ img{
     border-radius: 50%;
     overflow: hidden;
 }
+
 .about__img img{
     width: 100px;
+    transition: .3s;
 }
+
+.about__img:hover img{
+    transform: scale(1.4);
+}
+
 .about__subtitle{
     font-size: var(--font-size);
     color: var(--first-color);
@@ -360,6 +368,135 @@ img{
     color: var(--first-color);
     font-weight: 600;
 }
+
+
+
+/* == The Team ==*/
+.container__team
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+.container__team .card
+{
+   width: 330px;
+   height: 416px;
+   padding: 60px 30px;
+   margin: 20px;
+   background: #f2f3f7;
+   box-shadow: 0.6em 0.6em 1.2em #d2dce9,
+               -0.5em -0.5em 1em #ffffff;
+   border-radius: 20px;
+}
+.container__team .card .content
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.container__team .card .content .imgBx
+{
+   width: 180px;
+   height: 180px;
+   border-radius: 50%;
+   position: relative;
+   margin-bottom: -15px;
+   margin-top: -30px;
+   overflow: hidden;
+}
+.container__team .card .content .imgBx img
+{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.container__team .card .content .contentBx h4
+{
+   color: #36187d;
+   font-size: 1.7rem;
+   font-weight: bold;
+   text-align: center;
+   letter-spacing: 1px;
+   margin-bottom: -18px;
+}
+.container__team .card .content .contentBx h5
+{
+   color: #6c758f;
+   font-size: .9rem;
+   font-weight: bold;
+   text-align: center;
+   margin-bottom: 40px;
+}
+.container__team .card .content .sci
+{
+   margin-top: 20px;
+}
+.container__team .card .content .sci a
+{
+   text-decoration: none;
+   color: #6c758f;
+   font-size: 30px;
+   margin: 10px;
+   transition: color 0.4s;
+}
+.container__team .card .content .sci a:hover
+{
+   color: #0196e3;
+}
+/*   colors
+        #f2f3f7
+        #d2dce9
+        #36187d
+        #6c758f
+        #0196e3
+ */
+
+.btn__team {
+    padding: 8px 35px 8px 35px;
+    margin-left: 15px;
+    border-radius: 50px;
+    background-color: transparent;
+	border: 2px solid var(--first-color);
+	color: var(--first-color);
+}
+
+.btn__team:hover {
+    background-color: var(--first-color);
+    transition: .5s;
+    color: white;
+    border: .1px solid #36187d;
+    cursor: pointer;
+}
+
+
+.btn__team2 {
+    padding: 8px 35px 8px 35px;
+    margin-left: 47px;
+    border-radius: 50px;
+    background-color: transparent;
+	border: 2px solid var(--first-color);
+	color: var(--first-color);
+}
+
+.btn__team2:hover {
+    background-color: var(--first-color);
+    transition: .5s;
+    color: white;
+    border: .1px solid #36187d;
+    cursor: pointer;
+}
+
+/* == The Team End ==*/
+
+
+
 /* ===== SKILLS =====*/
 .skills__container{
     row-gap: 2rem;
@@ -588,7 +725,8 @@ img{
 }
 .buttons .primary-btn-projects.outline:hover {
 	background-color: var(--first-color);
-	color: #FAFAFF;
+    color: #FAFAFF;
+    transition: .5s;
 }
 .buttons svg {
 	width: 50px;
@@ -872,6 +1010,10 @@ img{
     margin-top: 30px;
     margin-left: 20px;
     }
+    .nav__item{
+        margin-bottom: .1px;
+        padding: var(--mb-2);
+    }
     
 }
 
@@ -1002,22 +1144,22 @@ img{
   @media screen and (max-width: 767px){
     .nav__link{
         position: relative;
-        color: var(--dark-color);
+        color: rgb(250, 254, 255);
         font-family: 'Times New Roman', Times, serif;
         
     }
     .nav__link:hover{
-        color: var(--first-color);
+        color: rgb(58, 57, 57);
         font-weight: 900;
     }
     .active::after {
         position: absolute;
         content: "";
-        width: 100%;
+        width: 120%;
         height: 0.18rem;
-        left: 0;
+        left: -8px;
         top: 2rem;
-        background-color: var(--first-color);
+        background-color: rgb(237, 236, 236);
     }
     .home__img{
         width: 100%; 
