@@ -493,6 +493,24 @@ img{
     cursor: pointer;
 }
 
+
+.btn__team3 {
+    padding: 8px 35px 8px 35px;
+    margin-left: 50px;
+    border-radius: 50px;
+    background-color: transparent;
+	border: 2px solid var(--first-color);
+	color: var(--first-color);
+}
+
+.btn__team3:hover {
+    background-color: var(--first-color);
+    transition: .5s;
+    color: white;
+    border: .1px solid #36187d;
+    cursor: pointer;
+}
+
 /* == The Team End ==*/
 
 
