@@ -530,6 +530,34 @@ img{
 	color: var(--first-color);
 }
 
+
+.btn__team7 {
+    padding: 8px 35px 8px 35px;
+    margin-left: 19px;
+    border-radius: 50px;
+    background-color: transparent;
+	border: 2px solid var(--first-color);
+	color: var(--first-color);
+}
+
+.btn__team8 {
+    padding: 8px 35px 8px 35px;
+    margin-left: 50px;
+    border-radius: 50px;
+    background-color: transparent;
+	border: 2px solid var(--first-color);
+	color: var(--first-color);
+}
+
+.btn__team9 {
+    padding: 8px 35px 8px 35px;
+    margin-left: 42px;
+    border-radius: 50px;
+    background-color: transparent;
+	border: 2px solid var(--first-color);
+	color: var(--first-color);
+}
+
 /* == The Team End ==*/
 
 
