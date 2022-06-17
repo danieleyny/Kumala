@@ -1,24 +1,35 @@
-/*===== MENU SHOW =====*/ 
-const showMenu = (toggleId, navId) =>{
-    const toggle = document.getElementById(toggleId),
-    nav = document.getElementById(navId)
+/*===== Nav Bar =====*/
 
-    if(toggle && nav){
-        toggle.addEventListener('click', ()=>{
-            nav.classList.toggle('show')
-        })
-    }
+const navSlide = () => {
+    const burger = document.querySelector('.burger');
+    const nav = document.querySelector('.nav-links');
+    const navLinks = document.querySelectorAll('.nav-links li');
+    
+    burger.addEventListener('click', ()=> {
+        // TOGGLE NAV
+        nav.classList.toggle('nav-active');
+
+    //ANIMATE LINKS 
+    navLinks.forEach((link, index)=>{
+        if(link.style.animation){
+            link.style.animation = '';
+        }   else {
+            link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + .5}s`;
+        }
+    });
+
+    //burger animation
+    burger.classList.toggle('toggle');
+
+    });
+  
 }
-showMenu('nav-toggle','nav-menu')
+navSlide();
 
-/*===== REMOVE MENU MOBILE =====*/
-const navLink = document.querySelectorAll('.nav__link')
 
-function linkAction(){
-    const navMenu = document.getElementById('nav-menu')
-    navMenu.classList.remove('show')
-}
-navLink.forEach(n => n.addEventListener('click', linkAction))
+/*===== Nav Bar End =====*/
+
+
 
 /*===== SCROLL SECTIONS ACTIVE LINK =====*/
 const sections = document.querySelectorAll('section[id]')
@@ -80,6 +91,6 @@ sr.reveal('.contact__text', {interval: 200})
 sr.reveal('.contact__input', {delay: 400})
 sr.reveal('.contact__button', {delay: 600})
 
-
+/*===== SCROLL REVEAL ANIMATION End =====*/
 
 

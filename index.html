@@ -18,33 +18,35 @@
         <title>Nophel</title>
     </head>
     <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
+       
+      <!--===== HEADER =====-->
+      <header class="l-header">
+        <nav class="nav bd-grid">
+            
+            <a class="nav__logo" href="#">
+                <div class="logo-image">
+                      <img src="assets/img/nophellogo.png" class="nav__logo-icon">
+                </div>
                 
-                <a class="nav__logo" href="#">
-                    <div class="logo-image">
-                          <img src="assets/img/nophellogo.png" class="nav__logo-icon">
-                    </div>
-                    
-                </a>
+            </a>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="theteam.html" class="nav__link">The Team</a></li>
-                        <li class="nav__item"><a href="#projects" class="nav__link">Portfolio</a></li>
-                        <li class="nav__item"><a href="#services" class="nav__link">Hire</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                    </ul>
-                </div>
-
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
+            
+          <ul class="nav-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="./theteam.html">The Team</a></li>
+              <li><a href="#projects">Portfolio</a></li>
+              <li><a href="#services">Hire</a></li>
+              <li><a href="#contact">Contact</a></li>
+      
+          </ul>
+          <div class="burger">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+          </div>
+        </nav>
+    </header>
 
         <main class="l-main">
             <!--===== HOME =====-->
@@ -107,13 +109,17 @@
                             <a href="https://wa.me/6464189226" class="about__social-icon"><i class='bx bxl-whatsapp' ></i></a>
                             <a href="mailto:danieleyny@gmail.com" class="about__social-icon"><i class='bx bx-envelope' ></i></a>
                         </div>
-                        <button class="about__button">
-                        <a href="theteam.html" class="primary-btn">The Team </a>
+                        <a href="theteam.html">
+                        <button class="about__button primary-btn">
+                        The Team 
                         </button>
+                      </a>
+
                     </div>
                 </div>
             </section>
 
+            <br/><br/>
             <!--===== SKILLS =====-->
             <section class="skills section" id="skills">
                 <h2 class="section-title">Skills</h2>
@@ -143,7 +149,7 @@
 
 
 
-
+<br/><br/>
 <!-- projects -->
 <section id="projects">
     <div class="container-projects">
@@ -389,7 +395,7 @@
 
 
 
-
+  <br/><br/>
   <!-- services Section -->
   <section id="services">
     <div class="container-projects">
@@ -500,6 +506,6 @@
         <script src="https://unpkg.com/scrollreveal"></script>
 
         <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
+        <script src="./assets/js/main.js"></script>
     </body>
 </html>
