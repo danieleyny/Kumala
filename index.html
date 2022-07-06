@@ -18,11 +18,12 @@
         <title>Nophel</title>
     </head>
     <body>
+
+      <div id="pageloader"></div>
        
       <!--===== HEADER =====-->
       <header class="l-header">
         <nav class="nav bd-grid">
-            
             <a class="nav__logo" href="#">
                 <div class="logo-image">
                       <img src="assets/img/nophellogo.png" class="nav__logo-icon">
@@ -530,6 +531,21 @@
 
             </div>
         </footer>
+
+
+
+<script>
+  var loader = document.getElementById("pageloader");
+
+  window.addEventListener("load", function(){
+    loader.style.display = "none";
+  })
+</script>
+
+
+
+
+
 
         <!--===== SCROLL REVEAL =====-->
         <script src="https://unpkg.com/scrollreveal"></script>
