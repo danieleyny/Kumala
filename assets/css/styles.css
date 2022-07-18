@@ -1397,10 +1397,22 @@ img{
 
 /* Page Loader */
 #pageloader {
-    background: #332c2c url(../img/loadingpage.gif) no-repeat center center;
+    background: var(--first-color) url(../img/colorloader.gif) no-repeat center center;
     height: 100vh;
     width: 100%;
     position: fixed;
     z-index: 10000;
-    background-size: 70%;   
+    background-size: 35%;   
+}
+
+@media screen and (max-width: 401px) {
+    #pageloader {
+        background: var(--first-color) url(../img/colorloader.gif) no-repeat center center;
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        z-index: 10000;
+        background-size: 45%;   
+    }
+
 }
