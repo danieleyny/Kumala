@@ -229,16 +229,18 @@ img{
     transform: rotate(45deg) translate(-5px, -6px);
 }
 
-@media screen and (max-height: 926px){
+
+
+@media screen and (max-width: 428px){
     .nav-links {
         
         height: 93vh;
-        top: 6.8vh;
+        top: 6.9vh;
        
     }
 }
 
-@media screen and (max-height: 896px){
+@media screen and (max-width: 415px){
     .nav-links {
         
         height: 93vh;
@@ -246,19 +248,19 @@ img{
        
     }
 }
-@media screen and (max-height: 844px){
+@media screen and (max-width: 390px){
     .nav-links {
         
         height: 93vh;
-        top: 7.6vh;
+        top: 7.9vh;
        
     }
 }
-@media screen and (max-height: 812px){
+@media screen and (max-width: 375px){
     .nav-links {
         
         height: 93vh;
-        top: 9.5vh;
+        top: 7.8vh;
        
     }
 }
