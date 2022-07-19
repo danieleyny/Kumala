@@ -238,11 +238,19 @@ img{
     }
 }
 
+@media screen and (max-height: 896px){
+    .nav-links {
+        
+        height: 93vh;
+        top: 7.1vh;
+       
+    }
+}
 @media screen and (max-height: 844px){
     .nav-links {
         
         height: 93vh;
-        top: 7.5vh;
+        top: 7.6vh;
        
     }
 }
@@ -250,7 +258,7 @@ img{
     .nav-links {
         
         height: 93vh;
-        top: 7.8vh;
+        top: 9.5vh;
        
     }
 }
