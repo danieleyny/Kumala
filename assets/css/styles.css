@@ -169,6 +169,8 @@ img{
     
 }
 
+
+
 @media screen and (max-width: 768px){
     body{
         overflow-x: hidden;
@@ -183,7 +185,7 @@ img{
         position: absolute;
         right: 0px;
         height: 91vh;
-        top: 8.9vh;
+        top: 7.5vh;
         background-color: #f3f1f1;
         display: flex;
         flex-direction: column;
@@ -226,6 +228,31 @@ img{
     transform: rotate(45deg) translate(-5px, -6px);
 }
 
+@media screen and (max-width: 415px){
+    .nav-links {
+        
+        height: 93vh;
+        top: 7.18vh;
+       
+    }
+}
+
+@media screen and (max-width: 390px){
+    .nav-links {
+        
+        height: 93vh;
+        top: 7.6vh;
+       
+    }
+}
+@media screen and (max-width: 375px){
+    .nav-links {
+        
+        height: 91vh;
+        top: 9.6vh;
+       
+    }
+}
 
 /* Nav Bar End */
 
@@ -1412,7 +1439,7 @@ img{
         width: 100%;
         position: fixed;
         z-index: 10000;
-        background-size: 45%;   
+        background-size: 55%;   
     }
 
 }
