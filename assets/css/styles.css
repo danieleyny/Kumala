@@ -5,6 +5,7 @@
 :root{
     --header-height: 4rem;
     --font-medium: 500;
+    --nav-distance: 70px;
 }
 
 /*===== Colores =====*/
@@ -228,28 +229,28 @@ img{
     transform: rotate(45deg) translate(-5px, -6px);
 }
 
-@media screen and (max-width: 415px){
+@media screen and (max-height: 926px){
     .nav-links {
         
         height: 93vh;
-        top: 7.18vh;
+        top: 6.8vh;
        
     }
 }
 
-@media screen and (max-width: 390px){
+@media screen and (max-height: 844px){
     .nav-links {
         
         height: 93vh;
-        top: 7.6vh;
+        top: 7.5vh;
        
     }
 }
-@media screen and (max-width: 375px){
+@media screen and (max-height: 812px){
     .nav-links {
         
-        height: 91vh;
-        top: 9.6vh;
+        height: 93vh;
+        top: 7.8vh;
        
     }
 }
