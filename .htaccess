@@ -1,9 +1,0 @@
-# set timezone 
-SetEnv TZ America/New_York
-
-# Change Server Signature 
-ServerSignature EMail
-SetEnv SERVER_ADMIN danieleyny@gmail.com
-
-# 404 Error Page
-ErrorDocument 404 /errors/error.html
