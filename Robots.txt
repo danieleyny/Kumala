@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /assets/img/
+Disallow: /test.html
+Disallow: /assets/
+Disallow: /Resume - Daniel Eyny.pdf/
