@@ -1015,7 +1015,7 @@ img{
 	font-size: 2rem;
 	/* text-transform: uppercase; */
 	margin-bottom: 1.5rem;
-	font-family: 'Poppins';
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #services .item-desc {
 	color: var(--secondary-gray);
@@ -1024,10 +1024,10 @@ img{
 	background-color: rgba(163, 218, 244, 0.776);
 }
 #services .item:nth-child(2) .icon {
-	background-color: rgba(151, 207, 232, 0.742);
+	background-color: rgba(163, 218, 244, 0.776);
 }
 #services .item:nth-child(3) .icon {
-	background-color: rgba(116, 187, 220, 0.818);
+	background-color: rgba(163, 218, 244, 0.776);
 }
 @media only screen and (max-width: 768px) {
 	#services .all-items {
@@ -1052,9 +1052,6 @@ img{
     }
     
 }
-
-
-
 
 
 /* ===== PORTFOLIO =====*/
@@ -1089,6 +1086,13 @@ img{
 .portfolio__img:hover .portfolio__link{
     bottom: 0;
 }
+
+
+
+.calendly-inline-widget {
+    overflow: hidden;
+}
+
 
 
 /* ===== CONTACT =====*/
