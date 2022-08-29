@@ -337,6 +337,7 @@ img{
     right: 0;
 }
 
+
 /*Active menu*/
 .active::after{
     position: absolute;
@@ -1087,6 +1088,11 @@ img{
     bottom: 0;
 }
 
+.calendly-scroll{
+    min-width:320px;
+    height:650px;
+}
+
 
 
 
@@ -1449,6 +1455,15 @@ img{
     z-index: 10000;
     background-size: 35%;   
 }
+
+@media screen and (max-width: 1000px) {
+    .calendly-scroll{
+        min-width:320px;
+        height:1000px;
+    }
+}
+
+
 
 @media screen and (max-width: 401px) {
     #pageloader {
