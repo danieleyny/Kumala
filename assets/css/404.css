@@ -142,7 +142,7 @@ img {
 /*=============== HOME ===============*/
 .home {
   background-color: var(--first-color);
-  padding: 4rem 0 2rem;
+  padding: 4rem 0 4.5rem;
   height: 100vh;
   display: grid;
 }
@@ -179,7 +179,7 @@ img {
 
 .home__img img {
   width: 230px;
-  animation: floaty 1.8s infinite alternate;
+  animation: floaty 1.5s infinite alternate;
 }
 
 .home__img {
