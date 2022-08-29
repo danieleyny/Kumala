@@ -142,7 +142,7 @@ img {
 /*=============== HOME ===============*/
 .home {
   background-color: var(--first-color);
-  padding: 4rem 0 6rem;
+  padding: 4rem 0 7rem;
   height: 100vh;
   display: grid;
 }
@@ -202,6 +202,10 @@ img {
   column-gap: .5rem;
   font-size: var(--smaller-font-size);
   align-self: flex-end;
+}
+
+.home__footer a {
+  color: black;
 }
 
 /* Animate ghost */
