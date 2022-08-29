@@ -1411,15 +1411,26 @@ img{
     }
    .home__scroll {
        z-index:  10;
+       margin-bottom: 70px;
    }
    
+   .home__social{
+    margin-top: -70px;
+   }
+
+   .home__img {
+    margin-bottom: 50px;
+
+   }
+
+
+
    .home__title{
     align-self: flex-end;
     font-size: 48px;
     color: var(--white-color);
     line-height: 1;
-    margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 10px;
     }
     .nav__item{
         margin-bottom: .1px;
