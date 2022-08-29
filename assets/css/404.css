@@ -7,7 +7,7 @@
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: hsl(38, 69%, 59%);
+  --first-color: hsl(203, 58%, 65%);
   --text-color: hsl(38, 8%, 8%);
 
   /*========== Font and typography ==========*/
@@ -32,6 +32,9 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
 }
 
 body {
@@ -139,7 +142,7 @@ img {
 /*=============== HOME ===============*/
 .home {
   background-color: var(--first-color);
-  padding: 9rem 0 2rem;
+  padding: 4rem 0 2rem;
   height: 100vh;
   display: grid;
 }
@@ -171,6 +174,7 @@ img {
 
 .home__button:hover {
   box-shadow: 0 4px 12px hsla(38, 69%, 8%, .2);
+  
 }
 
 .home__img img {
